@@ -1,0 +1,206 @@
+[
+  {
+    "region": "Alabama",
+    "population": 4903185
+  },
+  {
+    "region": "Alaska",
+    "population": 731545
+  },
+  {
+    "region": "Arizona",
+    "population": 7278717
+  },
+  {
+    "region": "Arkansas",
+    "population": 3017804
+  },
+  {
+    "region": "California",
+    "population": 39512223
+  },
+  {
+    "region": "Colorado",
+    "population": 5758736
+  },
+  {
+    "region": "Connecticut",
+    "population": 3565287
+  },
+  {
+    "region": "Delaware",
+    "population": 973764
+  },
+  {
+    "region": "District of Columbia",
+    "population": 705749
+  },
+  {
+    "region": "Florida",
+    "population": 21477737
+  },
+  {
+    "region": "Georgia",
+    "population": 10617423
+  },
+  {
+    "region": "Hawaii",
+    "population": 1415872
+  },
+  {
+    "region": "Idaho",
+    "population": 1787065
+  },
+  {
+    "region": "Illinois",
+    "population": 12671821
+  },
+  {
+    "region": "Indiana",
+    "population": 6732219
+  },
+  {
+    "region": "Iowa",
+    "population": 3155070
+  },
+  {
+    "region": "Kansas",
+    "population": 2913314
+  },
+  {
+    "region": "Kentucky",
+    "population": 4467673
+  },
+  {
+    "region": "Louisiana",
+    "population": 4648794
+  },
+  {
+    "region": "Maine",
+    "population": 1344212
+  },
+  {
+    "region": "Maryland",
+    "population": 6045680
+  },
+  {
+    "region": "Massachusetts",
+    "population": 6892503
+  },
+  {
+    "region": "Michigan",
+    "population": 9986857
+  },
+  {
+    "region": "Minnesota",
+    "population": 5639632
+  },
+  {
+    "region": "Mississippi",
+    "population": 2976149
+  },
+  {
+    "region": "Missouri",
+    "population": 6137428
+  },
+  {
+    "region": "Montana",
+    "population": 1068778
+  },
+  {
+    "region": "Nebraska",
+    "population": 1934408
+  },
+  {
+    "region": "Nevada",
+    "population": 3080156
+  },
+  {
+    "region": "New Hampshire",
+    "population": 1359711
+  },
+  {
+    "region": "New Jersey",
+    "population": 8882190
+  },
+  {
+    "region": "New Mexico",
+    "population": 2096829
+  },
+  {
+    "region": "New York",
+    "population": 19453561
+  },
+  {
+    "region": "North Carolina",
+    "population": 10488084
+  },
+  {
+    "region": "North Dakota",
+    "population": 762062
+  },
+  {
+    "region": "Ohio",
+    "population": 11689100
+  },
+  {
+    "region": "Oklahoma",
+    "population": 3956971
+  },
+  {
+    "region": "Oregon",
+    "population": 4217737
+  },
+  {
+    "region": "Pennsylvania",
+    "population": 12801989
+  },
+  {
+    "region": "Rhode Island",
+    "population": 1059361
+  },
+  {
+    "region": "South Carolina",
+    "population": 5148714
+  },
+  {
+    "region": "South Dakota",
+    "population": 884659
+  },
+  {
+    "region": "Tennessee",
+    "population": 6829174
+  },
+  {
+    "region": "Texas",
+    "population": 28995881
+  },
+  {
+    "region": "Utah",
+    "population": 3205958
+  },
+  {
+    "region": "Vermont",
+    "population": 623989
+  },
+  {
+    "region": "Virginia",
+    "population": 8535519
+  },
+  {
+    "region": "Washington",
+    "population": 7614893
+  },
+  {
+    "region": "West Virginia",
+    "population": 1792147
+  },
+  {
+    "region": "Wisconsin",
+    "population": 5822434
+  },
+  {
+    "region": "Wyoming",
+    "population": 578759
+  }
+]

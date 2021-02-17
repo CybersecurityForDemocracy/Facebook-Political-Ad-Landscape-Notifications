@@ -1,0 +1,118 @@
+.sponsors_view {
+  min-height: 600px;
+}
+
+.sponsors_view h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 121.3%;
+  margin: 0;
+}
+
+.search-button {
+  width: 176px;
+  height: 44px;
+  background: #836efb;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+
+h3.page_header {
+  margin-bottom: 30px;
+}
+
+.sponsors_view__header {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.sponsors_view__selected_sponsor {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sponsors_view__header {
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .sponsors_view__selected_sponsor {
+    flex-grow: 1;
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
+  .sponsors_view__all-ads-button {
+    margin-left: auto;
+  }
+}
+
+.selected_sponsor__spendings_wrapper,
+.spendings {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected_sponsor__spendings_wrapper {
+  margin-bottom: 40px;
+}
+
+.spendings {
+  justify-content: space-between;
+  padding: 1.3rem;
+}
+
+.spendings_header,
+.spendings_value {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 98.8%;
+}
+
+.spendings-list .spendings_header,
+.spendings-list .spendings_value {
+  font-size: 19px;
+  line-height: 70%;
+}
+
+.spendings-list .spendings_header {
+  padding-left: 15px;
+}
+
+.spendings-list .spendings {
+  padding: 1.1em 1.3em;
+}
+
+.spendings-list {
+  margin-bottom: 1em;
+}
+
+.selected_sponsor__spendings {
+  flex: 0 100%;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(23, 44, 99, 0.09);
+}
+
+.selected_sponsor__spendings + .selected_sponsor__spendings {
+  border-top: 1px solid #f0f0f0;
+}
+
+.sponsors_view .target_audience__wrapper {
+  margin-top: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .selected_sponsor__spendings {
+    flex: 0 48%;
+  }
+}
+
+.search-container
+  span[aria-live='polite']
+  + [class*='-control']
+  [class*='-placeholder'] {
+  display: none;
+}

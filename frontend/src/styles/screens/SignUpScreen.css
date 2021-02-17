@@ -1,0 +1,349 @@
+.signUpMain {
+  width: 100%;
+}
+
+.heightAuto {
+  justify-content: center;
+  display: flex;
+}
+
+.signUpContainer {
+  margin-top: 60px;
+  margin-bottom: 160px;
+  justify-content: center;
+}
+
+.signUpContainerInner, .signUpBottomLabel {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .signUpContainerInner, .signUpBottomLabel {
+    width: 80%;
+  }
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modalTitle {
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 35px 0;
+}
+
+.modalText {
+  border: 1px solid #fff;
+  padding: 12px 18px 12px 57px;
+  border-radius: 6px;
+  width: 52%;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+}
+.modalText img {
+  left: 17px;
+  position: absolute;
+  top: calc(50% - 12px);
+}
+
+.signUpLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+  margin-top: 40px;
+  cursor: default;
+}
+
+.adObserverExtensionLabel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1.1;
+  color: #1c1c20;
+  margin-top: 30px;
+  cursor: default;
+}
+
+.signUpSubLabel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 11px;
+}
+
+.signUpRow {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.signUpRow input[type="email"] {
+  margin-bottom: 28px;
+}
+
+@media (min-width: 1024px) {
+  .signUpRow input[type="email"] {
+    margin-bottom: 0;
+  }
+}
+
+.signUpInput {
+  flex: 0 100%;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+  padding: 18px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.signUpInput::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+}
+
+.signUpInputMessage {
+  width: 100%;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+  padding: 18px;
+  resize: none;
+}
+
+.signUpInputMessage::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+}
+
+.signUpButton {
+  width: 78%;
+  height: 44px;
+  background: #836efb;
+  box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 37px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .signUpButton {
+    width: 68%;
+  }
+}
+
+.signUpButton:focus {
+  outline-width: 0px;
+}
+
+/*
+  ##Device = Desktops
+*/
+
+@media (min-width: 1024px) {
+  .signUpMain {
+    width: 100%;
+  }
+
+  .signUpContainer {
+    margin-top: 60px;
+    margin-bottom: 160px;
+  }
+
+  .signUpContainerInner, .signUpBottomLabel {
+    width: 80%;
+    margin: auto;
+  }
+
+  .signUpLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+  }
+
+  .signUpSubLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 11px;
+  }
+
+  .signUpRow {
+    display: block;
+    flex-wrap: initial;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .signUpInput {
+    flex: 0 100%;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+    padding: 18px;
+    width: 100%;
+  }
+
+  .signUpInput::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+  }
+
+  .signUpInputMessage {
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+    padding: 18px;
+    /*margin-top: 28px;*/
+  }
+
+  .signUpInputMessage::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+  }
+
+  .signUpButton {
+    width: 68%;
+    height: 44px;
+    background: #836efb;
+    box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 37px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+  }
+
+  .signUpButton:focus {
+    outline-width: 0px;
+  }
+}
+
+/* Custom Modal styles */
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.ReactModal__Content {
+  background: #312d72 !important;
+  border: 0 !important;
+  height: auto !important;
+  padding: 20px 20px 43px !important;
+  width: 275px !important;
+}
+
+@media (min-width: 768px) {
+  .ReactModal__Content {
+    padding: 20px 20px 43px !important;
+    width: 464px !important;
+  }
+}
+
+.close-button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.mg-top-24 {
+  margin-top: 24px !important;
+}
+
+.signUpBottomLabel {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.signUpBottomLabel a {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.contact-form {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    max-width: 712px;
+  }
+}

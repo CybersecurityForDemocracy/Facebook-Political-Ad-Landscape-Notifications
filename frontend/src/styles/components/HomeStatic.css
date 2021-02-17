@@ -1,0 +1,223 @@
+/* Info Divider */
+.info-divider {
+  align-items: center;
+  background: url('../../assets/images/homeStaticSlider.png') center
+    center/cover no-repeat #57068c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+}
+
+.info-divider__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 27px;
+  text-align: center;
+}
+
+.info-divider__description {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 auto 2rem;
+  max-width: 635px;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  background: url('../../assets/images/homeStaticSlider.png') center
+    center/cover no-repeat #57068c;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__label {
+  color: #ffffff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 46px auto 50px;
+  text-align: center;
+}
+
+.hero__boxes {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.box {
+  background: #ffffff;
+  border-radius: 12px;
+  color: #2d3b73;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 10px 36px;
+  padding: 2rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.box::before {
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 12px 12px 0 0;
+  content: '';
+  display: block;
+  height: 10px;
+  left: 13px;
+  position: absolute;
+  right: 13px;
+  top: -10px;
+}
+
+.box__label {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.box__sublabel {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box__footer {
+  font-size: 14px;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero__boxes {
+    flex-direction: row;
+  }
+
+  .box {
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info-divider {
+    padding: 6rem 2rem;
+  }
+
+  .hero {
+    min-height: 548px;
+  }
+
+  .hero__label {
+    font-size: 54px;
+  }
+
+  .box__label {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero__label {
+    font-size: 64px;
+  }
+}
+
+/**
+  Items below are not currently used, but may be if DownloadData is reintroduced
+  in the future/
+
+.downloadDataContainer {
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(23, 44, 99, 0.09);
+  border-radius: 6px;
+  margin: 1rem 1rem 3rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 1rem 2rem 3rem;
+}
+
+.downloadDataTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadDataImageWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadDataImageCSV {
+  background-image: url('../../assets/images/CSV_big_image.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+}
+
+.downloadDataLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 34px;
+  color: #151c46;
+  margin-bottom: 23px;
+}
+
+.downloadDataText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.downloadDataButton {
+  background: #836efb;
+  box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+  border-radius: 12px;
+  width: 100%;
+  height: 58px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.downloadDataButton:focus {
+  outline-width: 0px;
+}
+
+.downloadDataButtonIcon {
+  background-image: url('../../assets/images/icon_download_cloud@2x.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+*/

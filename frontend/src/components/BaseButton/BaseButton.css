@@ -1,0 +1,38 @@
+.base-button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'ProximaNova-Regular', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.base-button--block {
+  display: block;
+}
+
+.base-button--sm {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.base-button--md {
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+  padding: 1.25rem 2rem;
+}
+
+.base-button--primary {
+  background: #836efb;
+  color: #fff;
+}
+
+.base-button--secondary {
+  background: #edeaff;
+  color: #151c46;
+}

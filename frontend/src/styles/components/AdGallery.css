@@ -1,0 +1,25 @@
+.ad-gallery {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.ad-gallery__item {
+  box-shadow: -3px 6px 14px 0px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ad-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

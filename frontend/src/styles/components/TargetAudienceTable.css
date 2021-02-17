@@ -1,0 +1,89 @@
+.target_audience__wrapper {
+  margin-bottom: 68px;
+}
+
+.target_audience__wrapper .polads__graph_header {
+  margin: 0;
+}
+
+.target_audience__tables {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -0.75rem;
+}
+
+.target_audience__tables .topAudienceTable {
+  flex-grow: 1;
+  margin: 0 0.75rem;
+  width: calc(100% - 1.5rem);
+}
+
+@media (min-width: 1024px) {
+  .target_audience__tables {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .target_audience__tables .topAudienceTable {
+    margin-bottom: 1.5rem;
+    width: calc(50% - 1.5rem);
+  }
+}
+
+.topAudienceTableTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 47px;
+  text-align: center;
+  color: #151c46;
+  padding: 25px 0px 25px 0px;
+}
+
+.topAudienceTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #151c46;
+}
+
+.topAudienceSubTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #151c46;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.topAudienceRowHeader {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #282b38;
+  padding: 21px 25px;
+}
+
+.topAudienceCell {
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #282b38;
+  padding: 21px 25px;
+}
+
+.target-audience--empty {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  width: 100%;
+}

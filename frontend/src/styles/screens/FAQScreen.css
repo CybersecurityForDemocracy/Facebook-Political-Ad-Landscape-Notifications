@@ -1,0 +1,159 @@
+.faqMain {
+  width: 100%;
+}
+
+.faqConteiner {
+  width: 70%;
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 79px;
+}
+
+.faqLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+  margin-bottom: 26px;
+}
+
+.faqItemTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1c20;
+}
+
+.faqItemContent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.faqPurpleContentText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  color: #836efb;
+}
+
+.faqItemWrapper:focus {
+  outline-width: 0px;
+}
+
+.faqItemWrapperTitleAndArrow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.faqItemWrapperTitleAndArrow:focus {
+  outline-width: 0px;
+}
+
+.faqImageArrow {
+  width: 14px;
+  height: 11px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.faqDivider {
+  width: 100%;
+  border: 1px solid #efeeee;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
+
+.faqItemContent a {
+  color: #836efb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.faqItemContent a:hover {
+  text-decoration: underline;
+}
+
+/*
+  ##Device = Desktops
+*/
+
+@media (min-width: 1024px) {
+  .faqMain {
+    width: 100%;
+  }
+
+  .faqConteiner {
+    width: 70%;
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 79px;
+  }
+
+  .faqLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+    margin-bottom: 26px;
+  }
+
+  .faqItemTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1c1c20;
+  }
+
+  .faqItemContent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .faqPurpleContentText {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    color: #836efb;
+  }
+
+  .faqItemWrapper:focus {
+    outline-width: 0px;
+  }
+
+  .faqItemWrapperTitleAndArrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .faqItemWrapperTitleAndArrow:focus {
+    outline-width: 0px;
+  }
+
+  .faqImageArrow {
+    width: 14px;
+    height: 11px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .faqDivider {
+    width: 100%;
+    border: 1px solid #efeeee;
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+}

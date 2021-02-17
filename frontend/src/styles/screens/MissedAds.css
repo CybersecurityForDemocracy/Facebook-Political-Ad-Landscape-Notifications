@@ -1,0 +1,35 @@
+.missed-ads__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 195.3%;
+  max-width: 80ch;
+}
+
+.missed-ads__description {
+  padding: 2rem 0;
+}
+
+.missed-ads__description a {
+  color: #836efb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.missed-ads__blocker-msg {
+  font-size: 20px; 
+}
+
+@media screen and (min-width: 768px) {
+  .missed-ads__description {
+    align-items: center;
+    display: flex;
+  }
+
+  .missed-ads__graphic {
+    flex-shrink: 0;
+    margin-left: 2rem;
+    width: 50%;
+  }
+}
+

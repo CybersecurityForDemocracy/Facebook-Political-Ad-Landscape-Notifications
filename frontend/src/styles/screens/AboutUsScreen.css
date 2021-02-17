@@ -1,0 +1,333 @@
+.aboutUsMain {
+}
+
+.aboutUsBox {
+  padding: 1.5rem;
+}
+
+.aboutUsBox a {
+  color: #836efb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.aboutUsBox a:hover {
+  text-decoration: underline;
+}
+
+.aboutUsLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+}
+
+.aboutUsText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: 43px;
+}
+
+.aboutUsPurpleText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  color: #836efb;
+}
+
+.aboutUsBackImage {
+  width: 100%;
+  background-image: url("../../assets/images/homeStaticSlider.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutUsAboutTeamLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #ffffff;
+  padding-top: 40px;
+}
+
+.aboutUsMemberWrapper,
+.aboutUsMemberWrapperStart {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.aboutTeamImage {
+  width: 150px;
+}
+
+.aboutTeamTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTeamFullName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.aboutTeamText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.aboutUsAboutPartnersLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+}
+
+.aboutUsAboutPartnersText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.aboutUsAboutPartnersImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
+  margin-left: 1em;
+}
+
+.aboutUsPartnerLogo {
+  width: 300px;
+}
+
+.aboutUsPartnerText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.aboutUsAboutFundersLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+  margin-top: 110px;
+}
+
+.aboutUsDemocracyWrapper {
+  margin-top: 59px;
+}
+
+.aboutUsSideLogo {
+    width: 222px;
+    height:auto;
+    margin-right: 1em;
+}
+
+.aboutUsDivider {
+  width: 100%;
+  border: 1px solid #efeeee;
+  margin-top: 33px;
+}
+
+/*
+  ##Device = Desktops
+*/
+
+@media (min-width: 1024px) {
+  .aboutUsMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutUsBox {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .aboutUsLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+  }
+
+  .aboutUsText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 43px;
+  }
+
+  .aboutUsPurpleText {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    color: #836efb;
+  }
+
+  .aboutUsBackImage {
+    width: 100%;
+    background-image: url("../../assets/images/homeStaticSlider.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutUsAboutTeamLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+
+  .aboutUsMemberWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  .aboutUsMemberWrapperStart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  .aboutTeamImage {
+    width: 293px;
+    height: 400px;
+  }
+
+  .aboutTeamTextWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 99px;
+  }
+
+  .aboutTeamFullName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 18px;
+  }
+
+  .aboutTeamText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  .aboutUsAboutPartnersLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+  }
+
+  .aboutUsAboutPartnersText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 30px;
+  }
+
+  .aboutUsPartnerLogo {
+    width: 412px;
+    height: 100%;
+  }
+
+  .aboutUsPartnerLogo {
+    width: 412px;
+    height: 100%;
+  }
+
+  .aboutUsPartnerOpenSecretsText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .aboutUsAboutFundersLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+    margin-top: 110px;
+  }
+
+  .aboutUsDemocracyWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+  }
+
+  .aboutUsDemocracyText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+
+  .aboutUsDivider {
+    width: 100%;
+    border: 1px solid #efeeee;
+    margin-top: 33px;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .aboutTeamImage {
+    width: 100%;
+  }
+}

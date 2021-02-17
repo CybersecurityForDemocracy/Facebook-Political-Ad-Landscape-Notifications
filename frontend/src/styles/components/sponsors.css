@@ -1,0 +1,67 @@
+.polads__sponsors > h3 {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.sponsors_view .target_audience__wrapper {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.sponsorTopAudienceWrapper .polads__graph_header {
+  margin: 0;
+}
+
+.sponsorTopAudienceWrapper .polads__graph_footer {
+  padding: 1rem 1.5rem;
+}
+
+.sponsorTopAudienceWrapper .polads__table__container {
+  border-top-width: 0;
+}
+
+.sponsorTopAudience--empty {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.sponsorTopAudienceTableConatiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sponsorTopAudienceFooterTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 31px;
+}
+
+.sponsorTopAudienceFooterButton {
+  background: #836efb;
+  border: 1px solid #836efb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  color: #ffffff;
+  height: 39.92px;
+  min-width: 147px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsorTopAudienceTableWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

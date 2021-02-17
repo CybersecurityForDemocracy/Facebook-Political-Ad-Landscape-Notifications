@@ -1,0 +1,496 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  // Search Ads
+  .searchAdsHeaderWrapper {
+    align-self: center;
+    width: 92%;
+    // padding-left: 5px;
+    // padding-right: 22px;
+    margin-bottom: 58px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .searchAdsHeaderLabelWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchAdsHeaderLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    color: #151c46;
+  }
+
+  .searchAdsHeaderSubtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+  }
+
+  .searchAdsHeaderButton {
+    background: #836efb;
+    box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+    border-radius: 12px;
+    width: 186px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .searchAdsHeaderButton:focus {
+    outline-width: 0px;
+  }
+
+  // Masonry
+  .masonry-container {
+    width: 95%;
+    margin: auto;
+    p {
+      text-align: center;
+      padding: 4px;
+      background: #222;
+      color: #efefef;
+    }
+  }
+
+  .mainMasonryWrapper {
+    display: flex;
+    overflow-y: scroll;
+    height: 700px;
+  }
+
+  .masonry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    width: 100%;
+    margin: auto;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-grow: 1;
+    margin: 22px;
+    width: 288px;
+  }
+
+  // AdsItem
+  .adsItem {
+    // margin: 22px;
+    width: 100%;
+    box-shadow: 0px 5px 25px rgba(23, 44, 99, 0.09);
+    border-radius: 6px;
+    img {
+      // box-shadow: 0 1px 1px 2px rgba(0,0,0, .15);
+      // border-radius: 10px;
+      width: 100%;
+      margin-top: -3px;
+    }
+  }
+
+  .childWrapper {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  .adsItemBorderPurple {
+    width: 100%;
+    height: 5px;
+    background: #836efb;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .adsItemHeaderWrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  // DateHeader
+  .dateHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .dateHeaderDateBox {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+  .dateHeaderSeparator {
+    width: 16px;
+    height: 0px;
+    border: 1px solid #e8e8e8;
+    transform: rotate(90deg);
+  }
+
+  // SpendBox
+  .spendBoxTotalSpendLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #151c46;
+  }
+
+  .spendBoxFromToSpendLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #151c46;
+  }
+
+  // ImpressionBox
+  .impressionBoxWrapper {
+    margin-top: 11px;
+    margin-bottom: 9px;
+  }
+
+  .impressionBoxLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #151c46;
+  }
+
+  .adsItemDivider {
+    width: 100%;
+    border: 1px solid #ededef;
+    margin-bottom: 3px;
+  }
+
+  // AboutCluster
+  .aboutClusterMain {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .aboutClusterBodyWrapper {
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-right: 18px;
+  }
+
+  .aboutClusterBodyText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .aboutClusterDivider {
+    width: 100%;
+    border: 1px solid #ededef;
+  }
+
+  .aboutClusterButton {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #836efb;
+    cursor: pointer;
+  }
+
+  .aboutClusterButton:focus {
+    outline-width: 0px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  // Search Ads
+  .searchAdsHeaderWrapper {
+    align-self: center;
+    width: 91.4%;
+    margin-bottom: 58px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  .searchAdsHeaderLabelWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchAdsHeaderLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    color: #151c46;
+  }
+
+  .searchAdsHeaderSubtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+  }
+
+  .searchAdsHeaderButton {
+    background: #836efb;
+    box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+    border-radius: 12px;
+    width: 186px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .searchAdsHeaderButton:focus {
+    outline-width: 0px;
+  }
+
+  // Masonry
+  .masonry-container {
+    width: 95%;
+    margin: auto;
+    p {
+      text-align: center;
+      padding: 4px;
+      background: #222;
+      color: #efefef;
+    }
+  }
+
+  .mainMasonryWrapper {
+    display: flex;
+    overflow-y: scroll;
+    height: 700px;
+  }
+
+  .masonry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    width: 100%;
+    margin: auto;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-grow: 1;
+    margin: 22px;
+    width: 288px;
+  }
+
+  // AdsItem
+  .adsItem {
+    // margin: 22px;
+    width: 100%;
+    box-shadow: 0px 5px 25px rgba(23, 44, 99, 0.09);
+    border-radius: 6px;
+    img {
+      // box-shadow: 0 1px 1px 2px rgba(0,0,0, .15);
+      // border-radius: 10px;
+      width: 100%;
+      margin-top: -3px;
+    }
+  }
+
+  .childWrapper {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  .adsItemBorderPurple {
+    width: 100%;
+    height: 5px;
+    background: #836efb;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .adsItemHeaderWrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  // DateHeader
+  .dateHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .dateHeaderDateBox {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .dateHeaderSeparator {
+    width: 14px;
+    height: 0px;
+    border: 1px solid #e8e8e8;
+    transform: rotate(90deg);
+  }
+
+  // SpendBox
+  .spendBoxTotalSpendLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #151c46;
+  }
+
+  .spendBoxFromToSpendLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #151c46;
+  }
+
+  // ImpressionBox
+  .impressionBoxWrapper {
+    margin-top: 11px;
+    margin-bottom: 9px;
+  }
+
+  .impressionBoxLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    color: #151c46;
+  }
+
+  .adsItemDivider {
+    width: 100%;
+    border: 1px solid #ededef;
+    margin-bottom: 3px;
+  }
+
+  // AboutCluster
+  .aboutClusterMain {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .aboutClusterBodyWrapper {
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-right: 18px;
+  }
+
+  .aboutClusterBodyText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .aboutClusterDivider {
+    width: 100%;
+    border: 1px solid #ededef;
+  }
+
+  .aboutClusterButton {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    color: #836efb;
+    cursor: pointer;
+  }
+
+  .aboutClusterButton:focus {
+    outline-width: 0px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+}

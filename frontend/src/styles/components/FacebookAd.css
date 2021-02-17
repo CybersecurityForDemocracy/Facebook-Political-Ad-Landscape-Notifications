@@ -1,0 +1,43 @@
+.ati-item {
+  max-width: 100%;
+}
+
+.ati-item,
+.ati-item-ad-sponsored {
+  overflow: hidden;
+  position: relative;
+}
+
+.ati-item a,
+.ati-item .ati-item-ad-sponsored {
+  color: #365899;
+}
+
+.ati-item .ati-item-advertiser {
+  font-weight: bold;
+}
+
+.ati-item .ati-item-advertiser-thumb {
+  border-radius: 20px;
+  float: left;
+  margin-bottom: 1rem;
+  margin-right: 8px;
+  margin-top: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.ati-item .ati-item-advertiser *,
+.ati-item-ad-sponsored *,
+.ati-item-ad-copy * {
+  display: inline;
+}
+
+.ati-item-ad-copy {
+  clear: both;
+  margin: 1rem 0;
+}
+
+.ati-item img {
+  max-width: 100%;
+}

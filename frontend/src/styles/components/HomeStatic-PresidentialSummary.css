@@ -1,0 +1,93 @@
+.polads__national_overview__component {
+  margin: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.polads__national_overview__container {
+  flex: 0 100%;
+  margin-top: 2.25rem;
+}
+
+.polads__national_overview__component button {
+  background: #836efb;
+  box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+  border-radius: 12px;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  height: 37px;
+  min-width: 142px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.polads__national_overview__component button + button {
+  margin-left: 0.5rem;
+}
+
+.polads__national_overview__component p.national_overview__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 195.3%;
+}
+
+.polads__national_overview__component h3.national_overview {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 98.8%;
+
+  color: #151c46;
+}
+
+.polads__container {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  /* National Overview */
+  .polads__national_overview__component {
+    margin: 4rem auto;
+    display: flex;
+    flex: 1;
+    min-height: 600px;
+    min-width: 1024px;
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+  }
+
+  .polads__national_overview__container {
+    text-align: left;
+    max-width: 450px;
+    margin: auto;
+    position: absolute;
+    top: 195px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .polads__national_overview__component h3.national_overview {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 98.8%;
+
+    color: #151c46;
+  }
+
+  .polads__national_overview__component button:disabled {
+    background: rgba(131, 110, 251, 0.15);
+    border-radius: 10px;
+    color: #151c46;
+    box-shadow: none;
+  }
+
+  .polads__container {
+    width: 48%;
+    position: relative;
+  }
+}

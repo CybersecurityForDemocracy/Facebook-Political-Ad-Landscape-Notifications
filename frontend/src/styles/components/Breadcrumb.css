@@ -1,0 +1,15 @@
+.polads__breadcrumb {
+  color: #836efb;
+}
+
+h3.polads__breadcrumb__h3 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.polads__breadcrumb__h3 small {
+  font-size: 14px;
+  font-weight: normal;
+  display: none;
+}

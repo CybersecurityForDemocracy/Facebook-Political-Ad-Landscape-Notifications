@@ -1,0 +1,7 @@
+{
+  "index_patterns": ["nyu_page","nyu_page*"],
+    "aliases" : {
+        "tests" : {}
+    }
+}
+

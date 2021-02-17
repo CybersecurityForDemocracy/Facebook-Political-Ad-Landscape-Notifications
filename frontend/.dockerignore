@@ -1,0 +1,6 @@
+postgres-data
+.git
+node_modules
+.dockerignore
+Dockerfile
+Dockerfile.prod

@@ -1,0 +1,18 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    DEBUG_COLLECTSTATIC: 1
+    SECRET_KEY: build
+    NODE_ENV: production
+    PORT: 3000
+    REACT_APP_POLADS_URL: https://dev.ad-screener.ad-observatory.com
+    REACT_APP_POLADS_API_TOKEN: KyRjRGR4TkFBK3FhSXVyI2V3M0ByUHo8eCtobEclKCNXQlNzRXVRfG5AM2B+a1diUEhEZnY7S0Y5WiFDYVQ2YjAmKyZ4NmV0byh9a1tLfVYlZ0xKRXliZWtqMVt7JW4pTy5sTUIkP0lAeSN0bUIwc3hVaXohSn1pM3dOM147IUcoeT9AczZgXVYrQ2lsYWshMGxMb2l0dkV8KWZjK0deeypkQSQ/fkFaK0EocGoyaDFJWjV7SmVJVWZhNjE/e1lZMF4kZUJQVEs/XTxyZlQ4Uzs+WG9pJX4oe242anItTjk2MD05NC91XUgjNixOUmIvRzMqL3JVcj8kQGZjJkdHXQ==
+    REACT_APP_EMAILJS_SERVICE_ID: PolAdsTransparencySES
+    REACT_APP_EMAILJS_TEMPLATE_ID: template_0yxclxW6_clone
+    REACT_APP_EMAILJS_SIGNUP_TEMPLATE_ID: template_0yxclxW6_clone_clone
+    REACT_APP_EMAILJS_USER_ID: user_sl3QaVGznwfBJ9plPwbMJ
+release:
+  image: web
+  command:
+    - cd backend && python3 manage.py migrate

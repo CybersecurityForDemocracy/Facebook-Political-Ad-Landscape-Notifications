@@ -1,0 +1,4 @@
+export const actions = {
+  RECEIVE_DATA: 'RECEIVE_SENATE_RACE_DATA',
+  REQUEST_DATA: 'REQUEST_SENATE_RACE_DATA',
+};

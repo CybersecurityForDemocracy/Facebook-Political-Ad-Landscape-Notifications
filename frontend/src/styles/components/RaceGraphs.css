@@ -1,0 +1,106 @@
+.raceTopAudienceWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.raceTopAudienceTableConatiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 5px 35px rgba(23, 44, 99, 0.09);
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-bottom: 81px;
+}
+
+.raceTopAudienceFooterTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 31px;
+}
+
+.raceTopAudienceFooterButton {
+  background: #836efb;
+  border: 1px solid #836efb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  color: #ffffff;
+  height: 39.92px;
+  min-width: 147px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.raceTopAudienceTableWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.raceTopAudienceNumberCell {
+  text-align: right;
+}
+
+.spentByTopicContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.spentByTopicWrapper {
+  flex: 0 100%;
+  position: relative;
+}
+
+.spentByTopicWrapper .recharts-legend-item {
+  min-width: auto;
+  padding-right: 5px;
+}
+
+.spentByTopicWrapper .recharts-legend-item:last-child {
+  padding-right: 35px;
+}
+
+.spentByTopicWrapper .recharts-default-legend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pageName {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 35px;
+  position: absolute;
+  top: -16px;
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  .spentByTopicWrapper {
+    flex: 0 48%;
+  }
+}
+
+@media (min-width: 1330px) {
+  .pageName {
+    top: 5px;
+  }
+}
+
+.tableName {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 1rem;
+}

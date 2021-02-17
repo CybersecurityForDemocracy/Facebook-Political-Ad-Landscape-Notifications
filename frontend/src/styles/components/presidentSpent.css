@@ -1,0 +1,33 @@
+.polads__president_spent__header {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.polads__president_spent__button {
+  color: #836efb;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.graph-table-candidates table tbody tr td {
+  text-align: right;
+}
+.graph-table-candidates table tbody tr td:first-child {
+  text-align: left;
+}
+
+.graph-table-candidates table tbody tr td:last-child {
+  color: #000 !important;
+  text-align: right;
+}
+
+.graph-table-district table tbody tr td {
+  text-align: left;
+}
+
+.graph-table-district table tbody tr td:nth-child(3),
+.graph-table-district table tbody tr td:nth-child(5) {
+  text-align: right;
+}

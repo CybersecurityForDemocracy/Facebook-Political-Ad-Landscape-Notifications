@@ -1,0 +1,307 @@
+.contactUsMain {
+  width: 100%;
+}
+
+.heightAuto {
+  justify-content: center;
+  display: flex;
+}
+
+.contactUsContainer {
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 160px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .contactUsContainer {
+    width: 70%;
+  }
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modalTitle {
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 35px 0;
+}
+
+.modalText {
+  border: 1px solid #fff;
+  padding: 12px 18px 12px 57px;
+  border-radius: 6px;
+  width: 52%;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+}
+.modalText img {
+  left: 17px;
+  position: absolute;
+  top: calc(50% - 12px);
+}
+
+.contactUsLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #1c1c20;
+}
+
+.contactUsSubLabel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 11px;
+}
+
+.contactUsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.contactUsRow input[type="email"] {
+  margin-bottom: 28px;
+}
+
+@media (min-width: 1024px) {
+  .contactUsRow input[type="email"] {
+    margin-bottom: 0;
+  }
+}
+
+.contactUsInput {
+  flex: 0 100%;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+  padding: 18px;
+}
+
+.contactUsInput::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+}
+
+.contactUsInputMessage {
+  width: 100%;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+  padding: 18px;
+  resize: none;
+}
+
+.contactUsInputMessage::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(40, 43, 56, 0.5);
+}
+
+.contactUsButton {
+  width: 78%;
+  height: 44px;
+  background: #836efb;
+  box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 37px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .contactUsButton {
+    width: 68%;
+  }
+}
+
+.contactUsButton:focus {
+  outline-width: 0px;
+}
+
+/*
+  ##Device = Desktops
+*/
+
+@media (min-width: 1024px) {
+  .contactUsMain {
+    width: 100%;
+  }
+
+  .contactUsContainer {
+    width: 712px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 160px;
+  }
+
+  .contactUsLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c20;
+  }
+
+  .contactUsSubLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 11px;
+  }
+
+  .contactUsRow {
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contactUsInput {
+    flex: 0 49%;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+    padding: 18px;
+  }
+
+  .contactUsInput::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+  }
+
+  .contactUsInputMessage {
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+    padding: 18px;
+    /*margin-top: 28px;*/
+  }
+
+  .contactUsInputMessage::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(40, 43, 56, 0.5);
+  }
+
+  .contactUsButton {
+    width: 68%;
+    height: 44px;
+    background: #836efb;
+    box-shadow: 0px 10px 25px rgba(96, 40, 186, 0.34);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 37px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+  }
+
+  .contactUsButton:focus {
+    outline-width: 0px;
+  }
+}
+
+/* Custom Modal styles */
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.ReactModal__Content {
+  /*background: #312D72 !important;*/
+  border: 0 !important;
+  height: auto !important;
+  padding: 20px 20px 43px !important;
+  width: 275px !important;
+}
+
+@media (min-width: 768px) {
+  .ReactModal__Content {
+    padding: 20px 20px 43px !important;
+    width: 464px !important;
+  }
+}
+
+.close-button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.mg-top-24 {
+  margin-top: 24px !important;
+}

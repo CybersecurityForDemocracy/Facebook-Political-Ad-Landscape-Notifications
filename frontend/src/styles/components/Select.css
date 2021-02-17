@@ -1,0 +1,40 @@
+.custom-select {
+  border: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+  color: #836efb;
+  cursor: pointer;
+  font-family: "ProximaNova-Regular";
+}
+
+.fake-select {
+  border: 0px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0;
+  color: #836efb;
+  cursor: pointer;
+}
+
+select {
+  padding: 5px;
+  background: white;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+select:focus {
+  outline-width: 0px;
+  outline: none;
+}
+
+.optionClass {
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(23, 44, 99, 0.09);
+  border-radius: 6px;
+  color: black;
+  border: 0px;
+  outline: 0px;
+}

@@ -1,0 +1,7 @@
+{
+  "index_patterns": ["nyu_ad_creatives","nyu_ad_creative*"],
+    "aliases" : {
+        "tests" : {}
+    }
+}
+
