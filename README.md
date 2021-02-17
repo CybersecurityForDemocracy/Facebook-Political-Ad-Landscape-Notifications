@@ -10,3 +10,5 @@ This project contains 3 components:
   sends notifications. This ran on a EC2 instance.
 
 See README in each component's dir for info on how to run it.
+
+__NOTE: clustering, topic modeling, and ad type classifier implementations are not provided.__
